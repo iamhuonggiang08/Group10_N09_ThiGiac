@@ -7,43 +7,82 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
       body {
-        background-color: #f8f9fa;
+        background-color: #d0f0e0; /* Nền xanh nhạt */
         font-family: 'Arial', sans-serif;
       }
 
-      h1 {
-        color: #343a40;
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 40px; /* Tăng padding */
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
-        margin-top: 50px;
+      }
+
+      h1 {
+        color: #2e7d32;
+        margin-bottom: 30px;
       }
 
       form {
-        background: #ffffff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
       }
 
       .form-group label {
         font-weight: bold;
+        color: #2e7d32;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.25rem; /* Tăng kích thước chữ của nhãn */
+      }
+
+      .form-group input[type="file"] {
+        margin: 0 auto;
+        display: block;
       }
 
       button {
-        display: block;
         width: 100%;
+        background-color: green; /* Màu xanh lá */
+        border: none;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #1b5e20;
       }
 
       h2 {
-        color: #28a745;
-        text-align: center;
+        color: #2e7d32;
         margin-top: 20px;
+        font-size: 20px; /* Tăng kích thước chữ kết quả */
       }
 
       .img-thumbnail {
         display: block;
         margin: 20px auto;
-        max-width: 300px;
+        max-width: 700px;
         border-radius: 10px;
+      }
+
+      .btn-primary {
+        background-color: green; /* Màu xanh lá */
+        border-color: green; /* Màu xanh lá */
+      }
+
+      .btn-primary:hover {
+        background-color: #1b5e20;
+        border-color: #1b5e20;
       }
     </style>
   </head>
