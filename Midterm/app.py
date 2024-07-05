@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 
 # Tải mô hình đã huấn luyện
-model = load_model('model/model.h5')
+model = load_model('model/model5.h5')
 
 def process_image(image_path):
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
